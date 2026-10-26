@@ -1,0 +1,7 @@
+print("Введите четыре вещественных числа, каждое с новой строки:")
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+d = int(input("d: "))
+res = round((a+b)/(c+d), 2)
+print(f"Результат: {res}")
